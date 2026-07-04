@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untuk Ifa</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Floating Ornaments Container -->
+    <div id="ornamentsContainer"></div>
+
+    <!-- Back Button -->
+    <button id="backBtn" class="hidden">← Kembali</button>
+
+    <div class="container">
+        <!-- Home Section -->
+        <section id="homeSection" class="section active">
+            <div class="card fade-in glass-card">
+                <h1 id="heroTitle"></h1>
+                <button id="startBtn" class="btn-primary"></button>
+            </div>
+        </section>
+
+        <!-- Main Content Section (Hidden initially) -->
+        <div id="mainContent" class="hidden">
+
+            <!-- Music Section (Dipindah ke atas agar bisa denger sambil scroll) -->
+            <section id="musicSection" class="section fade-in">
+                <div class="card glass-card">
+                    <p id="musicText" class="message-text"></p>
+                    <div id="playerContainer" class="mt-4">
+                        <!-- Spotify/Audio player injected here directly -->
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Gallery Section -->
+            <section id="gallerySection" class="section fade-in">
+                <div class="gallery-grid" id="galleryContainer">
+                    <!-- Images injected via JS -->
+                </div>
+                <div class="card mt-4 glass-card">
+                    <p id="galleryMessage" class="message-text"></p>
+                </div>
+            </section>
+
+            <!-- Question Section -->
+            <section id="questionSection" class="section fade-in">
+                <div class="card glass-card">
+                    <h2 id="questionText"></h2>
+                    <div class="btn-group">
+                        <button id="btnYes" class="btn-primary"></button>
+                        <button id="btnNo" class="btn-secondary"></button>
+                    </div>
+                    <div id="responseCard" class="card response-card hidden">
+                        <h3 id="responseText"></h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer Section -->
+            <section id="footerSection" class="section fade-in pb-5">
+                <div class="card glass-card footer-card">
+                    <h2 id="footerTitle" class="footer-text"></h2>
+                    <div id="footerLongMessage" class="long-message mt-4">
+                        <!-- Paragraphs injected via JS -->
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <!-- Configuration and Scripts -->
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
