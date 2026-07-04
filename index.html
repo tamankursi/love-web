@@ -9,6 +9,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Loading Screen -->
+    <div id="loadingScreen" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: var(--bg-color, #fff1f2); z-index: 9999; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <h2 style="color: var(--primary-color, #ff4757); font-family: 'Poppins', sans-serif;">Sedang memuat...</h2>
+        <p id="loadingError" style="color: red; display: none; margin-top: 10px; font-family: 'Poppins', sans-serif; text-align: center; padding: 0 20px;">Data tidak ditemukan.</p>
+    </div>
+
     <!-- Floating Ornaments Container -->
     <div id="ornamentsContainer"></div>
 
@@ -74,8 +80,7 @@
         </div>
     </div>
 
-    <!-- Configuration and Scripts -->
-    <script src="config.js"></script>
+    <!-- Scripts -->
     <script src="script.js"></script>
 </body>
 </html>
