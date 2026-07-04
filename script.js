@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Jika URL tidak memiliki parameter ?to=, gunakan 'ifa' sebagai default
     if (!clientId) {
         clientId = "ifa";
+    } else {
+        clientId = clientId.toLowerCase();
     }
 
     // Elemen Loading

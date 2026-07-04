@@ -16,12 +16,12 @@ const CONFIG = {
     // Tambahkan link foto-foto target (Ifa) di sini
     gallery: {
         images: [
-            "foto/1.jpg",
-            "foto/2.jpg",
-            "foto/3.jpg",
-            "foto/4.jpg",
-            "foto/5.jpg",
-            "foto/6.jpg"
+            "foto/client1/1.jpg",
+            "foto/client1/2.jpg",
+            "foto/client1/3.jpg",
+            "foto/client1/4.jpg",
+            "foto/client1/5.jpg",
+            "foto/client1/6.jpg"
         ],
         message: "Setiap hari kita bikin banyak pilihan, tapi ada satu pilihan yang nggak pernah aku sesali, yaitu milih buat deket sama kamu"
     },
