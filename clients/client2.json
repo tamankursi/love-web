@@ -10,12 +10,12 @@
     },
     "gallery": {
         "images": [
-            "foto/client1/1.jpg",
-            "foto/client1/2.jpg",
-            "foto/client1/3.jpg",
-            "foto/client1/4.jpg",
-            "foto/client1/5.jpg",
-            "foto/client1/6.jpg"
+            "foto/client2/1.jpg",
+            "foto/client2/2.jpg",
+            "foto/client2/3.jpg",
+            "foto/client2/4.jpg",
+            "foto/client2/5.jpg",
+            "foto/client2/6.jpg"
         ],
         "message": "Pesan di bawah galeri"
     },
