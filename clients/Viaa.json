@@ -1,0 +1,46 @@
+{
+    "hero": {
+        "title": "Hai sayangkuu, aku ada sesuatu yang special buat kamu, coba deh klik tombol di bawah",
+        "buttonText": "Pencet ini"
+    },
+    "music": {
+        "text": "Biar makin romantis, coba deh kamu play lagu ini sambil scroll ke bawah",
+        "audioUrl": "", 
+        "spotifyId": "47EWMOElkkbMp5m9SBkx7d"
+    },
+    "gallery": {
+        "images": [
+            "foto/Viaa/1.jpg",
+            "foto/Viaa/2.jpg",
+            "foto/Viaa/3.jpg",
+            "foto/Viaa/4.jpg",
+            "foto/Viaa/5.jpg",
+            "foto/Viaa/6.jpg"
+        ],
+        "message": "Sayang maafin aku ya kalo sering buat kamu marah dan ga mood, tapi aku selalu usaha yang terbaik buat hubungan kitaa, aku sayang kamu dan semoga ldr kita lancar sayang ya, i love uu sayangku❤️"
+    },
+    "question": {
+        "text": "Kamu sayang aku ga?",
+        "btnYes": "Sayang Dong!",
+        "btnNo": "Gak",
+        "responseYes": "Yeay! aku juga sayaang banget sama kamu!",
+        "responseNo": "Gak salah lagi kan maksudnya? yeay aku disayang kamu! 😜"
+    },
+    "footer": {
+        "title": "Makasih ya Via sayangku karena kamu mau luangin waktu buat liat ini, Semoga suka! ❤️",
+        "longMessage": [
+            "Gak tahu kenapa tiba-tiba kepikiran kamu. Cuma mau bilang makasih ya udah ada di hidup aku, bawaannya jadi pengen cepet-cepet ketemu terus.",
+            "Hari ini lagi sibuk banget, tapi anehnya tiap kali rehat yang muncul di otak malah muka kamu. Emang boleh ya secandu ini?.",
+            "Kadang aku suka mikir, kok bisa ya aku dapet pacar sekeren dan selucu kamu? Beruntung banget rasanya.",
+            "Semangat ya buat hari ini! Kalau capek, inget ada aku di sini yang selalu siap jadi tempat kamu cerita, atau sekadar jadi badut biar kamu ketawa lagi.",
+            "Love you!"
+        ]
+    },
+    "theme": {
+        "primary": "#ff4757",       
+        "secondary": "#ffeaa7",     
+        "background": "#fff1f2",    
+        "text": "#2d3436"           
+    },
+    "ornaments": ["🧸", "🌸", "💖", "✨", "🦋", "🌷"]
+}
